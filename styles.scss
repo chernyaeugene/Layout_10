@@ -125,8 +125,81 @@ body._lock {
   font-display: swap;
 }
 
-.container {
+body {
+  background-color: white;
+  color: black;
+}
+a {
+  color: black;
+}
+%font_j_m {
+  font-family: 'JostMedium', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.wrapper {
   max-width: 1460px;
   padding: 0 30px;
   margin: 0 auto;
+}
+header {
+  padding: 52px 0 98px;
+  .header_content_box {
+    text-align: center;
+    .header_menu_box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 17px;
+      .header_menu {
+        display: flex;
+        gap: 58px;
+        align-items: center;
+        .menu_list {
+          display: flex;
+          gap: 58px;
+          .menu_link {
+            a {
+              @extend %font_j_m;
+            }
+          }
+        }
+        button {
+          @extend %font_j_m;
+          padding: 9px 16px;
+          color: white;
+          background-color: #F93264;
+        }
+      }
+    }
+  }
+  img {
+    max-width: 1499px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .header_text_box {
+    margin-bottom: 35px;
+    h1 {
+      font-family: 'JostSemiBold', sans-serif;
+      font-size: 38px;
+      line-height: 44px;
+      margin-bottom: 21px;
+    }
+    .sub_tittle,
+    .sub_tittle_2 {
+      @extend %font_j_m;
+      font-size: 20px;
+      line-height: 29px;
+    }
+    .sub_tittle_2 {
+      margin-bottom: 12px;
+    }
+    .header_txt {
+      font-family: 'JostRegular', sans-serif;
+      font-size: 17px;
+      line-height: 25px;
+    }
+  }
 }
