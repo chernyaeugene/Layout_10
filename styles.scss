@@ -138,6 +138,13 @@ a {
   font-weight: 500;
   line-height: 25px;
 }
+%btn {
+  font-family: 'JostMedium', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+  color: white;
+}
 .wrapper {
   max-width: 1460px;
   padding: 0 30px;
@@ -166,9 +173,8 @@ header {
           }
         }
         button {
-          @extend %font_j_m;
+          @extend %btn;
           padding: 9px 16px;
-          color: white;
           background-color: #F93264;
         }
       }
@@ -202,4 +208,17 @@ header {
       line-height: 25px;
     }
   }
+  .header_chose {
+    display: flex;
+    justify-content: center;
+    button {
+      @extend %btn;
+      padding: 9px 41px;
+      background: inherit;
+      color: white;
+      background-color: #F93264;
+    }
+  }
+
+
 }

@@ -116,12 +116,19 @@ body {
 a {
   color: black; }
 
-header .header_content_box .header_menu_box .header_menu .menu_list .menu_link a, header .header_content_box .header_menu_box .header_menu button, header .header_text_box .sub_tittle,
+header .header_content_box .header_menu_box .header_menu .menu_list .menu_link a, header .header_text_box .sub_tittle,
 header .header_text_box .sub_tittle_2 {
   font-family: 'JostMedium', sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 25px; }
+
+header .header_content_box .header_menu_box .header_menu button, header .header_chose button {
+  font-family: 'JostMedium', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+  color: white; }
 
 .wrapper {
   max-width: 1460px;
@@ -146,7 +153,6 @@ header {
           gap: 58px; }
         header .header_content_box .header_menu_box .header_menu button {
           padding: 9px 16px;
-          color: white;
           background-color: #F93264; }
   header img {
     max-width: 1499px;
@@ -169,5 +175,13 @@ header {
       font-family: 'JostRegular', sans-serif;
       font-size: 17px;
       line-height: 25px; }
+  header .header_chose {
+    display: flex;
+    justify-content: center; }
+    header .header_chose button {
+      padding: 9px 41px;
+      background: inherit;
+      color: white;
+      background-color: #F93264; }
 
 /*# sourceMappingURL=styles.css.map */
