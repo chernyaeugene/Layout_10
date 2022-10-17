@@ -308,6 +308,28 @@ main {
           }
         }
       }
+
+    }
+  }
+  .content_2 {
+    position: relative;
+    padding: 90px 0 124px;
+    background-color: #FA3465;
+    color: white;
+    img {
+      position: absolute;
+      left: 0;
+      z-index: 2;
+    }
+    .wrapper {
+      position: relative;
+      z-index: 3;
+      text-align: left;
+      h2 {
+        @extend %font_j_sb;
+        margin-bottom: 65px;
+      }
+
     }
   }
 }

@@ -57,4 +57,215 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400; }
 
+body._lock {
+  overflow: hidden; }
+
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url("fonts/RobotoMedium.eot");
+  src: url("fonts/RobotoMedium.eot") format("embedded-opentype"), url("fonts/RobotoMedium.woff2") format("woff2"), url("fonts/RobotoMedium.woff") format("woff"), url("fonts/RobotoMedium.ttf") format("truetype"), url("fonts/RobotoMedium.svg#RobotoMedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url("fonts/RobotoRegular.eot");
+  src: url("fonts/RobotoRegular.eot") format("embedded-opentype"), url("fonts/RobotoRegular.woff2") format("woff2"), url("fonts/RobotoRegular.woff") format("woff"), url("fonts/RobotoRegular.ttf") format("truetype"), url("fonts/RobotoRegular.svg#RobotoRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'JostBold';
+  src: url("fonts/JostBold.eot");
+  src: url("fonts/JostBold.eot") format("embedded-opentype"), url("fonts/JostBold.woff2") format("woff2"), url("fonts/JostBold.woff") format("woff"), url("fonts/JostBold.ttf") format("truetype"), url("fonts/JostBold.svg#JostBold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'JostMedium';
+  src: url("fonts/JostMedium.eot");
+  src: url("fonts/JostMedium.eot") format("embedded-opentype"), url("fonts/JostMedium.woff2") format("woff2"), url("fonts/JostMedium.woff") format("woff"), url("fonts/JostMedium.ttf") format("truetype"), url("fonts/JostMedium.svg#JostMedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'JostRegular';
+  src: url("fonts/JostRegular.eot");
+  src: url("fonts/JostRegular.eot") format("embedded-opentype"), url("fonts/JostRegular.woff2") format("woff2"), url("fonts/JostRegular.woff") format("woff"), url("fonts/JostRegular.ttf") format("truetype"), url("fonts/JostRegular.svg#JostRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'JostSemiBold';
+  src: url("fonts/JostSemiBold.eot");
+  src: url("fonts/JostSemiBold.eot") format("embedded-opentype"), url("fonts/JostSemiBold.woff2") format("woff2"), url("fonts/JostSemiBold.woff") format("woff"), url("fonts/JostSemiBold.ttf") format("truetype"), url("fonts/JostSemiBold.svg#JostSemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Kalam';
+  src: url("fonts/Kalam-Regular.eot");
+  src: url("fonts/Kalam-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Kalam-Regular.woff2") format("woff2"), url("fonts/Kalam-Regular.woff") format("woff"), url("fonts/Kalam-Regular.ttf") format("truetype"), url("fonts/Kalam-Regular.svg#Kalam-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+body {
+  background-color: white;
+  color: black; }
+
+a {
+  color: black; }
+
+header .header_content_box .header_menu_box .header_menu .menu_list .menu_link a, header .header_text_box .sub_tittle,
+header .header_text_box .sub_tittle_2 {
+  font-family: 'JostMedium', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px; }
+
+header .header_text_box h1, main .content_1 .wrapper h2, main .content_1 .wrapper h3, main .content_2 .wrapper h2 {
+  font-family: 'JostSemiBold', sans-serif;
+  font-size: 38px;
+  line-height: 55px; }
+
+main .content_1 .wrapper .sub_tittle_txt, main .content_1 .wrapper .content_1_box_img .img_element .element_txt h4,
+main .content_1 .wrapper .content_1_box_img .img_element_1 .element_txt h4 {
+  font-family: 'JostSemiBold', sans-serif;
+  font-size: 28px;
+  line-height: 40px; }
+
+header .header_text_box .header_txt, main .content_1 .wrapper .content_1_box_img .img_element .element_txt p,
+main .content_1 .wrapper .content_1_box_img .img_element_1 .element_txt p {
+  font-family: 'JostRegular', sans-serif;
+  font-size: 17px;
+  line-height: 25px; }
+
+header .header_content_box .header_menu_box .header_menu button, header .header_chose button {
+  font-family: 'JostMedium', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+  color: white; }
+
+.wrapper {
+  max-width: 1580px;
+  padding: 0 30px;
+  margin: 0 auto; }
+
+header {
+  padding: 52px 0 98px; }
+  header .header_content_box {
+    text-align: center; }
+    header .header_content_box .header_menu_box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 17px; }
+      header .header_content_box .header_menu_box .header_menu {
+        display: flex;
+        gap: 58px;
+        align-items: center; }
+        header .header_content_box .header_menu_box .header_menu .menu_list {
+          display: flex;
+          gap: 58px; }
+        header .header_content_box .header_menu_box .header_menu button {
+          padding: 9px 16px;
+          background-color: #F93264; }
+  header img {
+    max-width: 1499px;
+    width: 100%;
+    object-fit: cover; }
+  header .header_text_box {
+    margin-bottom: 35px; }
+    header .header_text_box h1 {
+      line-height: 44px;
+      max-width: 830px;
+      margin: 0 auto 21px; }
+    header .header_text_box .sub_tittle,
+    header .header_text_box .sub_tittle_2 {
+      font-size: 20px;
+      line-height: 29px; }
+    header .header_text_box .sub_tittle_2 {
+      margin-bottom: 12px; }
+  header .header_chose {
+    display: flex;
+    justify-content: center; }
+    header .header_chose button {
+      padding: 9px 41px;
+      background: inherit;
+      color: white;
+      background-color: #F93264; }
+
+main .content_1 {
+  position: relative;
+  padding-bottom: 115px; }
+  main .content_1 .m_r_img {
+    position: absolute;
+    z-index: 2;
+    top: 75px;
+    right: 0; }
+  main .content_1 .wrapper {
+    position: relative;
+    z-index: 3;
+    padding-top: 188px;
+    text-align: left; }
+    main .content_1 .wrapper h2 {
+      margin-bottom: 13px; }
+    main .content_1 .wrapper .sub_tittle {
+      font-family: 'JostRegular', sans-serif;
+      font-size: 20px;
+      line-height: 29px;
+      margin-bottom: 54px; }
+      main .content_1 .wrapper .sub_tittle span {
+        color: #0088FE; }
+    main .content_1 .wrapper .sub_tittle_txt {
+      max-width: 1155px;
+      margin-bottom: 110px; }
+    main .content_1 .wrapper h3 {
+      margin-bottom: 123px; }
+    main .content_1 .wrapper .content_1_box_img {
+      display: flex;
+      justify-content: space-between;
+      position: relative; }
+      main .content_1 .wrapper .content_1_box_img .img_element,
+      main .content_1 .wrapper .content_1_box_img .img_element_1 {
+        max-width: 483px;
+        position: relative;
+        z-index: 2; }
+        main .content_1 .wrapper .content_1_box_img .img_element .element_txt,
+        main .content_1 .wrapper .content_1_box_img .img_element_1 .element_txt {
+          position: absolute;
+          padding: 9px 0 0 17px;
+          bottom: -20px;
+          left: 40px;
+          background-color: #FFFFFF;
+          max-width: 443px;
+          width: 100%; }
+          main .content_1 .wrapper .content_1_box_img .img_element .element_txt h4,
+          main .content_1 .wrapper .content_1_box_img .img_element_1 .element_txt h4 {
+            color: #FA3465; }
+      main .content_1 .wrapper .content_1_box_img .img_element_1 {
+        top: -202px;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 561px;
+        position: absolute; }
+        main .content_1 .wrapper .content_1_box_img .img_element_1 .element_txt {
+          left: 50px; }
+main .content_2 {
+  position: relative;
+  padding: 90px 0 124px;
+  background-color: #FA3465;
+  color: white; }
+  main .content_2 img {
+    position: absolute;
+    left: 0;
+    z-index: 2; }
+  main .content_2 .wrapper {
+    position: relative;
+    z-index: 3;
+    text-align: left; }
+    main .content_2 .wrapper h2 {
+      margin-bottom: 65px; }
+
 /*# sourceMappingURL=styles.css.map */
