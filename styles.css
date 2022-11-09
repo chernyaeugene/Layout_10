@@ -117,7 +117,8 @@ a {
   color: black; }
 
 header .header_content_box .header_menu_box .header_menu .menu_list .menu_link a, header .header_text_box .sub_tittle,
-header .header_text_box .sub_tittle_2 {
+header .header_text_box .sub_tittle_2, main .content_3 .wrapper .content_3_box_img .img_element_con_3 .element_txt p,
+main .content_3 .wrapper .content_3_box_img .img_element_1_con_3 .element_txt p {
   font-family: 'JostMedium', sans-serif;
   font-size: 17px;
   font-weight: 500;
@@ -128,7 +129,7 @@ main .content_2 .wrapper .content_2_box_list div p, main .content_2 .wrapper p {
   font-size: 26px;
   line-height: 38px; }
 
-header .header_text_box h1, main .content_1 .wrapper h2, main .content_1 .wrapper h3, main .content_2 .wrapper h2, main .content_2 .wrapper .cont_2_titl_txt {
+header .header_text_box h1, main .content_1 .wrapper h2, main .content_1 .wrapper h3, main .content_2 .wrapper h2, main .content_2 .wrapper .cont_2_titl_txt, main .content_3 .wrapper .content_3_text_box h2 {
   font-family: 'JostSemiBold', sans-serif;
   font-size: 38px;
   line-height: 55px; }
@@ -140,17 +141,21 @@ main .content_1 .wrapper .content_1_box_img .img_element_1 .element_txt h4 {
   line-height: 40px; }
 
 header .header_text_box .header_txt, main .content_1 .wrapper .content_1_box_img .img_element .element_txt p,
-main .content_1 .wrapper .content_1_box_img .img_element_1 .element_txt p {
+main .content_1 .wrapper .content_1_box_img .img_element_1 .element_txt p, main .content_3 .wrapper .content_3_text_box .header_txt {
   font-family: 'JostRegular', sans-serif;
   font-size: 17px;
   line-height: 25px; }
 
-header .header_content_box .header_menu_box .header_menu button, header .header_chose button {
+header .header_content_box .header_menu_box .header_menu button, header .header_chose button, main .content_3 .wrapper .content_3_text_box button {
   font-family: 'JostMedium', sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 25px;
-  color: white; }
+  color: white;
+  padding: 9px 41px;
+  background: inherit;
+  color: white;
+  background-color: #F93264; }
 
 .wrapper {
   max-width: 1580px;
@@ -195,11 +200,6 @@ header {
   header .header_chose {
     display: flex;
     justify-content: center; }
-    header .header_chose button {
-      padding: 9px 41px;
-      background: inherit;
-      color: white;
-      background-color: #F93264; }
 
 main .content_1 {
   position: relative;
@@ -299,5 +299,54 @@ main .content_2 {
     main .content_2 .wrapper p {
       max-width: 1024px;
       width: 100%; }
+main .content_3 {
+  padding-bottom: 141px; }
+  main .content_3 .wrapper {
+    position: relative; }
+    main .content_3 .wrapper .content_3_box_img {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      position: absolute;
+      z-index: 5;
+      top: -33px; }
+      main .content_3 .wrapper .content_3_box_img .img_element_con_3,
+      main .content_3 .wrapper .content_3_box_img .img_element_1_con_3 {
+        max-width: 466px;
+        position: relative;
+        z-index: 2; }
+        main .content_3 .wrapper .content_3_box_img .img_element_con_3 .element_txt,
+        main .content_3 .wrapper .content_3_box_img .img_element_1_con_3 .element_txt {
+          position: absolute;
+          padding: 9px 0 0 17px;
+          bottom: -20px;
+          left: 40px;
+          background-color: #FFFFFF;
+          max-width: 443px;
+          width: 100%; }
+          main .content_3 .wrapper .content_3_box_img .img_element_con_3 .element_txt h4,
+          main .content_3 .wrapper .content_3_box_img .img_element_1_con_3 .element_txt h4 {
+            font-family: 'JostSemiBold', sans-serif;
+            font-size: 22px;
+            line-height: 32px; }
+          main .content_3 .wrapper .content_3_box_img .img_element_con_3 .element_txt p,
+          main .content_3 .wrapper .content_3_box_img .img_element_1_con_3 .element_txt p {
+            color: #EA557B; }
+      main .content_3 .wrapper .content_3_box_img .img_element_1_con_3 {
+        transform: translateY(-61px); }
+    main .content_3 .wrapper .content_3_text_box {
+      padding-top: 581px;
+      text-align: center; }
+      main .content_3 .wrapper .content_3_text_box h2 {
+        margin-bottom: 21px; }
+      main .content_3 .wrapper .content_3_text_box .sub_tittle {
+        max-width: 855px;
+        margin: 0 auto 31px;
+        font-family: 'JostMedium', sans-serif;
+        font-size: 20px;
+        line-height: 28px; }
+      main .content_3 .wrapper .content_3_text_box .header_txt {
+        max-width: 682px;
+        margin: 0 auto 35px; }
 
 /*# sourceMappingURL=styles.css.map */

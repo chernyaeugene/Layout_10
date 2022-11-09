@@ -164,6 +164,10 @@ a {
   font-weight: 500;
   line-height: 25px;
   color: white;
+  padding: 9px 41px;
+  background: inherit;
+  color: white;
+  background-color: #F93264;
 }
 .wrapper {
   max-width: 1580px;
@@ -232,10 +236,6 @@ header {
     justify-content: center;
     button {
       @extend %btn;
-      padding: 9px 41px;
-      background: inherit;
-      color: white;
-      background-color: #F93264;
     }
   }
 }
@@ -371,6 +371,70 @@ main {
         @extend %font_j_m_p;
         max-width: 1024px;
         width: 100%;
+      }
+    }
+  }
+  .content_3 {
+    padding-bottom: 141px;
+    .wrapper {
+      position: relative;
+      .content_3_box_img {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        position: absolute;
+        z-index: 5;
+        top: -33px;
+        .img_element_con_3,
+        .img_element_1_con_3 {
+          max-width: 466px;
+          position: relative;
+          z-index: 2;
+          .element_txt {
+            position: absolute;
+            padding: 9px 0 0 17px;
+            bottom: -20px;
+            left: 40px;
+            background-color: #FFFFFF;
+            max-width: 443px;
+            width: 100%;
+            h4 {
+              font-family: 'JostSemiBold', sans-serif;
+              font-size: 22px;
+              line-height: 32px;
+            }
+            p {
+              @extend %font_j_m;
+              color: #EA557B;
+            }
+          }
+        }
+        .img_element_1_con_3 {
+          transform: translateY(-61px);
+        }
+      }
+      .content_3_text_box {
+        padding-top: 581px;
+        text-align: center;
+        h2 {
+          @extend %font_j_sb;
+          margin-bottom: 21px;
+        }
+        .sub_tittle {
+          max-width: 855px;
+          margin: 0 auto 31px;
+          font-family: 'JostMedium', sans-serif;
+          font-size: 20px;
+          line-height: 28px;
+        }
+        .header_txt {
+          @extend %font_j_r;
+          max-width: 682px;
+          margin: 0 auto 35px;
+        }
+        button {
+          @extend %btn;
+        }
       }
     }
   }
