@@ -27,3 +27,17 @@
 //         }
 //     }
 // }
+
+new Swiper('.swiper_comments', {
+    loop : true,
+    speed: 800,
+    spaceBetween: 20,
+    pagination: {
+        el: '#swiper_comments',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+    },
+});

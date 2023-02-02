@@ -1,0 +1,61 @@
+<svg width="1920" height="688" viewBox="0 0 1920 688" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.8">
+<mask id="mask0_72_35" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="99" y="24" width="163" height="163">
+<circle cx="180.5" cy="105.5" r="80.5" transform="rotate(22.9173 180.5 105.5)" fill="#7636FE"/>
+</mask>
+<g mask="url(#mask0_72_35)">
+<rect x="137.701" y="0.00683594" width="162" height="161" transform="rotate(22.9173 137.701 0.00683594)" fill="#FFC301" fill-opacity="0.8"/>
+<rect x="137.701" y="0.00683594" width="162" height="9" transform="rotate(22.9173 137.701 0.00683594)" fill="#02C382" fill-opacity="0.8"/>
+<rect x="130.692" y="16.5859" width="162" height="9" transform="rotate(22.9173 130.692 16.5859)" fill="#02C382" fill-opacity="0.8"/>
+<rect x="123.682" y="33.165" width="162" height="9" transform="rotate(22.9173 123.682 33.165)" fill="#02C382" fill-opacity="0.8"/>
+<rect x="116.673" y="49.7441" width="162" height="9" transform="rotate(22.9173 116.673 49.7441)" fill="#02C382" fill-opacity="0.8"/>
+<rect x="109.664" y="66.3232" width="162" height="9" transform="rotate(22.9173 109.664 66.3232)" fill="#02C382" fill-opacity="0.8"/>
+<rect x="102.655" y="82.9033" width="162" height="9" transform="rotate(22.9173 102.655 82.9033)" fill="#02C382" fill-opacity="0.8"/>
+<rect x="95.6454" y="99.4824" width="162" height="9" transform="rotate(22.9173 95.6454 99.4824)" fill="#02C382" fill-opacity="0.8"/>
+<rect x="88.6362" y="116.062" width="162" height="9" transform="rotate(22.9173 88.6362 116.062)" fill="#02C382" fill-opacity="0.8"/>
+<rect x="81.627" y="132.641" width="162" height="9" transform="rotate(22.9173 81.627 132.641)" fill="#02C382" fill-opacity="0.8"/>
+</g>
+</g>
+<g opacity="0.8">
+<mask id="mask1_72_35" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1790" y="58" width="161" height="161">
+<circle cx="1870.5" cy="138.5" r="80.5" transform="rotate(-90 1870.5 138.5)" fill="#7636FE"/>
+</mask>
+<g mask="url(#mask1_72_35)">
+<rect x="1790" y="219" width="162" height="161" transform="rotate(-90 1790 219)" fill="#FFC301" fill-opacity="0.8"/>
+<rect x="1790" y="219" width="162" height="9" transform="rotate(-90 1790 219)" fill="#7636FE" fill-opacity="0.8"/>
+<rect x="1808" y="219" width="162" height="9" transform="rotate(-90 1808 219)" fill="#7636FE" fill-opacity="0.8"/>
+<rect x="1826" y="219" width="162" height="9" transform="rotate(-90 1826 219)" fill="#7636FE" fill-opacity="0.8"/>
+<rect x="1844" y="219" width="162" height="9" transform="rotate(-90 1844 219)" fill="#7636FE" fill-opacity="0.8"/>
+<rect x="1862" y="219" width="162" height="9" transform="rotate(-90 1862 219)" fill="#7636FE" fill-opacity="0.8"/>
+<rect x="1880" y="219" width="162" height="9" transform="rotate(-90 1880 219)" fill="#7636FE" fill-opacity="0.8"/>
+<rect x="1898" y="219" width="162" height="9" transform="rotate(-90 1898 219)" fill="#7636FE" fill-opacity="0.8"/>
+<rect x="1916" y="219" width="162" height="9" transform="rotate(-90 1916 219)" fill="#7636FE" fill-opacity="0.8"/>
+</g>
+</g>
+<g opacity="0.8">
+<mask id="mask2_72_35" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="651" y="415" width="161" height="161">
+<circle cx="731.5" cy="495.5" r="80.5" transform="rotate(-90 731.5 495.5)" fill="#7636FE"/>
+</mask>
+<g mask="url(#mask2_72_35)">
+<rect x="651" y="576" width="162" height="161" transform="rotate(-90 651 576)" fill="#002D53" fill-opacity="0.8"/>
+<rect x="651" y="576" width="162" height="9" transform="rotate(-90 651 576)" fill="#00C280" fill-opacity="0.8"/>
+<rect x="669" y="576" width="162" height="9" transform="rotate(-90 669 576)" fill="#00C280" fill-opacity="0.8"/>
+<rect x="687" y="576" width="162" height="9" transform="rotate(-90 687 576)" fill="#00C280" fill-opacity="0.8"/>
+<rect x="705" y="576" width="162" height="9" transform="rotate(-90 705 576)" fill="#00C280" fill-opacity="0.8"/>
+<rect x="723" y="576" width="162" height="9" transform="rotate(-90 723 576)" fill="#00C280" fill-opacity="0.8"/>
+<rect x="741" y="576" width="162" height="9" transform="rotate(-90 741 576)" fill="#00C280" fill-opacity="0.8"/>
+<rect x="759" y="576" width="162" height="9" transform="rotate(-90 759 576)" fill="#00C280" fill-opacity="0.8"/>
+<rect x="777" y="576" width="162" height="9" transform="rotate(-90 777 576)" fill="#00C280" fill-opacity="0.8"/>
+<rect x="795" y="576" width="162" height="9" transform="rotate(-90 795 576)" fill="#00C280" fill-opacity="0.8"/>
+</g>
+</g>
+<rect opacity="0.8" x="1700" y="315" width="181" height="181" fill="#7636FE" fill-opacity="0.8"/>
+<path opacity="0.8" d="M0 495C-2.06649e-06 518.901 4.65583 542.567 13.7017 564.648C22.7475 586.73 36.0062 606.793 52.7208 623.693C69.4353 640.594 89.2784 654 111.117 663.146C132.956 672.292 156.362 677 180 677L180 495L0 495Z" fill="#FA3465" fill-opacity="0.8"/>
+<path opacity="0.8" d="M976 499C976 522.901 980.695 546.567 989.816 568.648C998.937 590.73 1012.31 610.793 1029.16 627.693C1046.01 644.594 1066.02 658 1088.04 667.146C1110.06 676.292 1133.67 681 1157.5 681L1157.5 499L976 499Z" fill="#FA3465" fill-opacity="0.8"/>
+<path opacity="0.8" d="M976 499C952.362 499 928.956 503.708 907.117 512.854C885.278 522 865.435 535.406 848.721 552.307C832.006 569.207 818.748 589.27 809.702 611.352C800.656 633.433 796 657.099 796 681L976 681V499Z" fill="#7538FF"/>
+<path opacity="0.8" d="M1158 499C1158 522.901 1162.66 546.567 1171.7 568.648C1180.75 590.73 1194.01 610.793 1210.72 627.693C1227.44 644.594 1247.28 658 1269.12 667.146C1290.96 676.292 1314.36 681 1338 681C1361.64 681 1385.04 676.292 1406.88 667.146C1428.72 658 1448.56 644.594 1465.28 627.693C1481.99 610.793 1495.25 590.73 1504.3 568.648C1513.34 546.567 1518 522.901 1518 499H1338L1158 499Z" fill="#F8BC18"/>
+<rect opacity="0.8" x="450" y="501" width="181" height="181" fill="#FA3465" fill-opacity="0.8"/>
+<rect opacity="0.8" x="1519" y="500" width="181" height="181" fill="#FA3465" fill-opacity="0.8"/>
+<path opacity="0.8" d="M1519 662C1540.01 662 1560.82 657.81 1580.23 649.668C1599.64 641.527 1617.28 629.594 1632.14 614.551C1646.99 599.508 1658.78 581.649 1666.82 561.995C1674.86 542.34 1679 521.274 1679 500H1519V662Z" fill="#00C280" fill-opacity="0.8"/>
+<circle opacity="0.8" cx="540" cy="592" r="84" fill="#7636FE"/>
+</svg>
